@@ -27,3 +27,4 @@
 > In order to do that you need to be inside the emulator under `/Library/Android/sdk/emulator`
 > To run the scripts go to the command line and cd into the project and then type `python -m unittest -v test.test_abc.TestABC`
 
+> > To install the required packages you need to run this command `pip install -r requirements.txt`
