@@ -25,6 +25,16 @@
 
 > To open the emulator from the command line use `emulator -avd Pixel_2_API_26` where `Pixel_2_API_26` is the device name
 > In order to do that you need to be inside the emulator under `/Library/Android/sdk/emulator`
-> To run the scripts go to the command line and cd into the project and then type `python -m unittest -v test.test_abc.TestABC`
+> To run the scripts go to the command line and cd into the project and then type `python -m unittest -v t/path/to/test` or `nose /path/to/test`
 
 > > To install the required packages you need to run this command `pip install -r requirements.txt`
+
+## Task
+> Write automation scripts to test the following:
+1. Write a test to test the Schedule a consultation feature from the today tab
+2. Write a test to test the rescheduling of a consultation
+3. Write a test to test the cancelation of a consultation
+ 
+```diff 
+- Use cucumber for one of the tests
+```
