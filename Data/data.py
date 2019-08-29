@@ -1,4 +1,4 @@
 Login_Data = {
-    "username": "auto+test@vida.com",
-    "password": "P@ssword123"
+    "username": "abc+1test@vida.com",
+    "password": "Vida123#"
 }
